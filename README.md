@@ -209,3 +209,8 @@ curl -X POST http://127.0.0.1:8000/api/payments/create-link/ \
   -H "Content-Type: application/json" \
   -d '{"order_id": 1002, "amount": 50000, "currency": "INR", "gateway": "razorpay"}'
 ```
+
+### Razorpay Checkout Page
+When a user clicks on the generated Razorpay payment link, they will see the Razorpay payment modal:
+
+![Razorpay Checkout Modal](razorpay_checkout.png)
