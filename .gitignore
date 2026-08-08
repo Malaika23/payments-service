@@ -33,9 +33,9 @@ build/
 .vscode/
 
 ### Django / Python ###
-django_payment_service/.env
-django_payment_service/venv/
-django_payment_service/db.sqlite3
+.env
+venv/
+db.sqlite3
 **/__pycache__/
 *.py[cod]
 *$py.class
